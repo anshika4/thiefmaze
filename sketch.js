@@ -238,7 +238,7 @@ function draw() {
       gameState="play";
       console.log("play starts");
       start.destroy();
-      backsound.play();
+      backsound.loop();
       }
       
       //keep outside condition so that runs repeatedly------
